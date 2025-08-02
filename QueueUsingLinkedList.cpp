@@ -40,7 +40,7 @@ int MyQueue :: pop()
         // Your Code 
         if(front==NULL)
         {
-        // rear=NULL;
+
         return -1;
         }
         int temp=front->data;
